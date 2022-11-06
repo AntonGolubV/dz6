@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+           
+        }
+        body{
+            background: url(111.jfif) no-repeat top left /cover;
+            
+        }
+        .container{
+            width: 70vw;
+            height: 70vh;
+            box-shadow: 0px 0px 5px 5px;
+            position: absolute;
+            top: 15vh;
+            left: 14vw;
+            padding: left 100px;
+        }
+        .header{
+            width: 100%;
+            height: 20%;
+            padding-left: 30px;
+            padding-top: 20px;
+            margin-bottom: 20px;
+        }
+        .main{
+            width: 95%;
+            height: 76%;
+            padding-left: 30px;
+            display: flex;
+        }
+        .first-block{
+            width: 15%;
+            height: 60%;
+            color:aliceblue;
+            
+        }
+        .second-block{
+            width: 90%;
+            height: 100%;
+            
+            
+        }
+        .block-1{
+            width: 100%;
+            height: 5vh;
+            display: flex;
+            justify-content: space-between; 
+            margin-bottom: 18px;             
+        }
+        .block-1-1{
+            width: 45%;
+            height: 100%;
+            
+        }
+        .block-email{
+            width: 100%;
+            height: 5vh;
+            margin-bottom: 18px;
+        }
+        .phone{
+            width: 100%;
+            height: 4vh;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 18px;
+        }
+        .phone-1{
+            width: 30%;
+            height: 100%;
+        }
+        .other{
+            width: 100%;
+            height: 5vh;
+            margin-bottom: 18px;
+        }
+        .message{
+            width: 100%;
+            height: 13vh;
+            margin-bottom: 5px;
+        }
+        .button{
+            width: 100%;
+            height: 6vh;
+            border: 2px solid white;
+            margin-top: 5px;
+        }
+        .button input{
+             background-color: rgba(255, 255, 255, 0);
+             color: aliceblue;
+        }
+        input{
+            width: 100%;
+            height: 100%;
+            border: 0;
+            
+        }
+        option{
+            width: 100%;
+            height: 100%;
+        }
+        select{
+            width: 100%;
+            height: 100%;
+        }
+        textarea{
+            width: 100%;
+            height: 100%;
+        }
+        h1{
+            color: aliceblue;
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+        h2{
+            font-size: 1rem;
+            color: aliceblue; 
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style-type: none;
+            font-size: 1rem;
+            color: aliceblue;
+            padding: 0;
+        }
+        ul li{
+            padding: 0;
+            margin-bottom: 35px;
+        }
+        hr{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Contact form</h1>
+            <h2>Please fill in your information and we'll be sending your order.</h2>
+        </div>
+        <div class="main">
+            
+            <div class="first-block">
+                <ul>
+                    <li>Your name</li>
+                    <li>Your email</li>
+                    <li>Phone*</li>
+                    <li>Message subject*</li>
+                    <li>Message*</li>
+                </ul>
+            </div>
+            <div class="second-block">
+                <form action="#" method="get">
+                <div class="block-1">
+                    <div class="block-1-1">
+                        <input type="text" value="" placeholder="First name" id="First name" >
+                    </div>
+                    <div class="block-1-1">
+                        <input type="text" value="" placeholder="Last name" id="Last name" >
+                    </div>
+                </div>
+                <div class="block-email">
+                    <input type="text" value="" placeholder="your_mail@gmail.com">
+                </div>
+                <div class="phone">
+                    <div class="phone-1">
+                        <input type="tel"  placeholder="000">
+                    </div>
+                    <div class="phone-1">
+                        <input type="tel"  placeholder="000">
+                    </div>
+                    <div class="phone-1">
+                        <input type="tel"  placeholder="0000">
+                    </div>
+                
+                        
+                    </div>
+                        <div class="other">
+                        <select name="" id="">
+                            <option  value="">
+                                <h3><b>OBJECT</b></h3>
+                            </option>
+                            <option value="">
+                                <h3><b>O</b></h3>
+                            </option>
+                        </select>
+                </div>
+                <div class="message"> 
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+               <hr>
+               <div class="button">
+                <input type="submit" value="SUBMIT FORM">
+               </div>
+                        </form>
+            </div>
+        </div>
+        
+    </div>
+  
+</body>
+</html>
